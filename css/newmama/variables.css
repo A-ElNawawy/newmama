@@ -1,0 +1,38 @@
+:root{
+
+    /* colors */
+    --pure-white-color:#fff;
+    --dark-pink-color:#ff6791;
+    --light-turquoise-color:#9ec4c5;
+    --dark-blue-color:#006186;
+        /*--------------------------------------------------*/
+
+    --body-color:var(--pure-white-color);
+    --text-color:var(--dark-blue-color);
+    --main-color: var(--dark-pink-color);
+    --title-color: var();
+
+    --place-holder-color:var();
+    --border-color: var();
+    --under-line-color:var();
+    --wtr-mrk-color: var();
+
+    
+    --button-color:var();
+    --button-hover-color:var();
+    --disabled-color:var();
+
+    /* colors */
+    
+    /* fonts */
+    --text-font:13px;
+    /* fonts */
+    
+    /* media */
+    --xxs:calc(320px/12);
+    --xs:calc(480px/12);
+    --s:calc(768px/12);
+    --m:calc(992px/12);
+    --l:calc(1200px/12);
+    /* media */
+}

@@ -1,0 +1,68 @@
+/*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -*/
+/*=== === === === === === === === === === startRules === === === === === === === === === === ==*/
+
+/*==================================================================*/
+                            /* startImport*/
+@import url('../my-frameworks/normalize.css');
+@import url('variables.css');
+@import url('../my-frameworks/decoration.css');
+@import url('../my-frameworks/position.css');
+@import url('../my-frameworks/text.css');
+@import url('style.css');
+@import url('myStyle.css');
+@import url('media.css');
+                            /* endImport*/
+/*==================================================================*/
+
+/*==================================================================*/
+                            /* startFonts */
+
+@font-face {
+    font-family: "";
+    src:
+        url("") format("embedded-opentype")
+        ;
+    src:
+        url("") format("woff2"),
+        url("") format("woff"),
+        url("") format("truetype"),
+        url("") format("opentype")
+        url("#") format("svg")
+        ;
+}
+.ar{
+    font-family: 'Markazi Text', serif;
+    direction:rtl;
+} /*for arabic*/
+.en{
+    font-family: Montserrat, sans-serif;
+}
+
+                            /* endFonts */
+/*==================================================================*/
+
+*{
+    padding: 0;
+    margin:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::selection{
+    color:var(--body-color);
+    background-color:var(--text-color);
+    
+}
+.body{
+    background-color:var(--body-color);
+    color:var(--text-color);
+
+    width:100%;
+    min-height: 640px;
+}
+.container{
+    margin:auto;
+}
+
+/*=== === === === === === === === === === endRules === === === === === === === === === === === */
+/*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -*/
