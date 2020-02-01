@@ -33,6 +33,7 @@
 .ar{
     font-family: 'Markazi Text', serif;
     direction:rtl;
+    text-align: right;
 } /*for arabic*/
 .en{
     font-family: Montserrat, sans-serif;
