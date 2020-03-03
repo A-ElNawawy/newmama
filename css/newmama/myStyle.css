@@ -42,6 +42,7 @@ header.masthead{
     height: auto;
     padding: 30px 0;
 }
+
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
@@ -57,9 +58,13 @@ padding: 1rem;
 }
 
 .input-group-newsletter button {
-font-size: 0.8rem;
+font-size: 1.5rem;
 font-weight: 700;
 text-transform: uppercase;
 letter-spacing: 1px;
 padding: 1rem;
 }
+
+a:focus, a:hover {
+  color: var(--main-color)!important;
+  }
